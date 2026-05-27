@@ -11,7 +11,9 @@ Anyone should be able to deploy a gorgeous status page in minutes with a single 
 
 ---
 
-## Demo - https://freeimage.host/i/Cdsvks2
+## Demo - <img width="1209" height="809" alt="Screenshot 2026-05-27 at 5 49 27 PM" src="https://github.com/user-attachments/assets/792d441c-d0be-4aa6-a4e1-3b8fd89580f8" />
+
+---
 
 ## ✨ Features
 
