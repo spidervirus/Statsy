@@ -11,6 +11,8 @@ Anyone should be able to deploy a gorgeous status page in minutes with a single 
 
 ---
 
+## Demo - https://freeimage.host/i/Cdsvks2
+
 ## ✨ Features
 
 - **Multi-Protocol Monitoring**:
