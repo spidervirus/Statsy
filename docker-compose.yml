@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  statsy:
+    build: .
+    container_name: statsy-monitor
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    volumes:
+      # Keep database file persistent on host system
+      - statsy-data:/app/data
+    environment:
+      - PORT=3001
+      # Optional: default password, SMTP & Webhook settings (overridable in admin panel)
+      # - SMTP_HOST=smtp.gmail.com
+      # - SMTP_PORT=587
+      # - SMTP_USER=your_email@gmail.com
+      # - SMTP_PASS=your_gmail_app_password
+      # - SMTP_FROM=noreply@statsy.dev
+      # - ALERT_EMAIL=admin@yourdomain.com
+      # - WEBHOOK_URL=https://discord.com/api/webhooks/...
+
+volumes:
+  statsy-data:

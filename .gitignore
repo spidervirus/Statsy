@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Built bundles
+dist/
+dist-ssr/
+*.local
+
+# SQLite database & local storage
+data/
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Environment configs
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System/IDE config files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
